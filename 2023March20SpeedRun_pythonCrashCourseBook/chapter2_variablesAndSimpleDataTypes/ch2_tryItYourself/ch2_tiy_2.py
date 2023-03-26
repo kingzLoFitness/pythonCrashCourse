@@ -46,7 +46,7 @@ print(f"{famous_person} again, quoted (and/or once stated) {famousQuote}")
 
 
 
-
+print()
 """
 2-7. Stripping Names: Use a variable to represent a person’s name, and include
 some whitespace characters at the beginning and end of the name. Make sure
@@ -56,4 +56,20 @@ Then print the name using each of the three stripping functions, lstrip(),
 rstrip(), and strip()
 """
 
+personName = "  Kingsley Cross  "
+replyBack = f"Space Before personName -\" {personName} \"- space after."
 
+print(replyBack)
+
+
+replyBack = f"Space Before personName \n-\"{personName.lstrip()}\"- space after."
+
+print(replyBack)
+
+replyBack = f"Space Before personName -\"{personName.rstrip()}\"- space after."
+
+print(replyBack)
+
+replyBack = f"Space Before personName -\"{personName.strip()}\"- space after."
+
+print(replyBack)
