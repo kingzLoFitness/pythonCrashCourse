@@ -1,5 +1,7 @@
-# Variables 
+# Variables and Simple Data Types
 
+
+# VAriables
 # hello_world.py 
 
 message = "Hello Python world!"
@@ -93,4 +95,96 @@ print(favorite_language.lstrip())
 
 print(favorite_language.strip())
 
+
+'''
+# Avoiding Syntax Errors with Strings
+# - it occurs when Python doesn't recognize a section of your program as vaid Python code
+
+Example:
+message = 'One of Python's strengths is its diverse community.'
+
+SyntaxError: invalid syntax
+
+'''
+
+
+###################################
+print()
+# Numbers
+
+# Integers
+print(2 + 3)
+print(3 - 2)
+print(2 * 3)
+print(3 / 2)
+print(2 ** 3)
+print(3 ** 3)
+print(10 ** 6)
+
+print()
+print(2 + 3 * 4)
+print((2 + 3) * 4)
+
+
+print()
+# Floats
+print(0.1 + 0.1)
+print(0.2 + 0.2)
+print(2 * 0.1)
+print(2 * 0.2)
+
+
+print(0.2 + 0.1)
+print(3 * 0.1)
+
+
+
+print()
+# Integers and Floats
+print(4 / 2)
+
+print(1 + 2.0)
+print(2 * 3.0)
+print(3.0 ** 2)
+
+
+# Underscores in Numbers
+universe_age = 14_000_000_000
+print(universe_age)
+
+
+
+# Multiple Assignment
+x, y, z = 0, 0, 0
+
+
+# Constants
+# - use all caps to indicate a variable shouild be a constant and never be changed:
+
+
+MAX_CONNECTIONS = 5000
+print(MAX_CONNECTIONS)
+
+# WARNING: Contstants can be changed in the Program like its a regular variable 
+MAX_CONNECTIONS = 4444
+print(MAX_CONNECTIONS)
+
+
+
+
+########################################
+
+########################################
+
+########################################
+
+########################################
+
+########################################
+
+# Comments
+# comment.py
+
+# Say hello to everyone
+print("Hello Python people!")
 

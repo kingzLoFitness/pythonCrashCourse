@@ -57,7 +57,7 @@ rstrip(), and strip()
 """
 
 personName = "  Kingsley Cross  "
-replyBack = f"Space Before personName -\" {personName} \"- space after."
+replyBack = f"Space Before personName \n-\" {personName} \"- space after."
 
 print(replyBack)
 
@@ -66,10 +66,10 @@ replyBack = f"Space Before personName \n-\"{personName.lstrip()}\"- space after.
 
 print(replyBack)
 
-replyBack = f"Space Before personName -\"{personName.rstrip()}\"- space after."
+replyBack = f"Space Before personName \n-\"{personName.rstrip()}\"- space after."
 
 print(replyBack)
 
-replyBack = f"Space Before personName -\"{personName.strip()}\"- space after."
+replyBack = f"Space Before personName \n-\"{personName.strip()}\"- space after."
 
 print(replyBack)
