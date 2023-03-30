@@ -1,6 +1,6 @@
 '''
 Looping Through an Entire List
-- repeetative list length
+- repetative list length
 - print out each item on the list
 '''
 magicians = ['alice', 'david', 'carolina']
