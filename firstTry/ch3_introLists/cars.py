@@ -1,8 +1,8 @@
 '''
 Organizing a List
 
-- lists will be crated in an unpredictable order
-- you cant always control the order in which yoru users provide their data
+- lists will be created in an unpredictable order
+- you cant always control the order in which your users provide their data
 
 - you'll frequently want to preserve the original order of your list, 
 - and other times you'll want to change the original order.
@@ -16,7 +16,7 @@ Python provides a a number of different aways to organize your lists, depending 
 cars =  ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 
-# Sorted List from alphabetical order PERMANENTLY.  Not being able to revert to the original order
+# Sorted List from Alphabetical order PERMANENTLY.  Not being able to revert to the original order
 cars.sort()
 print("\nSorted List Alphabetically PERMANENTLY\n--------------------------------------")
 print(cars)
@@ -69,6 +69,10 @@ cars.reverse()
 print("\nReverse Order\n------------")
 print(cars)
 
+
+print("\nReversed Back to Original Order\n----------")
+cars.reverse()
+print(cars) 
 
 
 

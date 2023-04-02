@@ -2,10 +2,12 @@
 print("# Changing, Adding, and Removing Elements\n")
 
 # Modify Elements in a list. --> motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles = ['honda', 'yamaha', 'suzuki']
+
 print("\n# Modify Elements in a list. \n--> motorcycles = ")
 print("-------------------------------------------")
-motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
+
 
 # changes the value of the first item, the rest of the list stays the same 
 # you can change the value of any item on the list
@@ -25,7 +27,7 @@ print(motorcycles)
 # Inserting Elements into a List
 print("\n# Inserting Elements into a List...  \n-->  motorcycles.insert(0, 'kingzlofitness')")
 print("-------------------------------------------")
-motorcycles.insert(0, 'kingzlofitness')
+motorcycles.insert(2, 'kingzlofitness')
 print(motorcycles)
 
 
@@ -33,19 +35,19 @@ print(motorcycles)
 print("\n# Removing an Item Using the del Statement")
 print("del motorcycles[0] &")
 print("del motorcycles[1]")
-print("-------------------------------------------")
+print("----------------------Delete the 0 index---------------------")
 del motorcycles[0]
 print(motorcycles)
 
-
+print("----------------------Delete 1 index---------------------")
 del motorcycles[1]
 print(motorcycles)
 
 
 
-# Removing an Item Using the pop() Method
-# somethimes you'll want to use the value of an item after you remove it from a list33
-# the pop() method removes the last item in a list, but it lets you work with that itme after removing it
+# Removing an Item Using the pop() Method (the last item)
+# sometimes you'll want to use the value of an item after you remove it from a list
+# the pop() method removes the LAST item in a list, but it lets you work with that item after removing it
 print("\n# Removing an Item Using the pop() Method")
 print("-------------------------------------------")
 print("original Items")
@@ -72,7 +74,7 @@ print(f"The last motocycle I owned was a {last_owned.title()}.")
 
 
 
-# Popping itmes from any Position in a List
+# Popping itmes from ANY Position in a List
 # you can use pop() to remove an item from any positon in a list by including the index of the item you want to ermove in parentheses
 print()
 print("- Popping items from any Position in a List")
@@ -115,7 +117,7 @@ print(f"\nA {too_expensive.title()} is too expensive for me.")
 
 
 '''
-NOTE: remove() method delets only the first occurrence of the value to specify
+NOTE: remove() method deletes only the first occurrence of the value to specify
 - there's a possibility the value appears more than once in the list
 - you'll need to use a loop to make sure all occurrences of the value are removed 
 - you'll learned how to do this in Chapter 7
