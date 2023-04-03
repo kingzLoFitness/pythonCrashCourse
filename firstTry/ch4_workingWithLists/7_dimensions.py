@@ -31,7 +31,7 @@ TypeError
 '''
 NOTE: tuple with one element, you need to include a trailing comma:
 
-In addition (what they said) it doesnt often make sense to bulid a tuple with one element. 
+In addition (what they said) it doesnt often make sense to build a tuple with one element. 
 - But this can happen when tuples are generated automantically.
 '''
 my_t = (3,)
@@ -79,7 +79,7 @@ for dimension in dimensions:
 
 
 '''
-When compared with lists, tuples are simple data sctructures 
+When compared with lists, tuples are simple data structures 
 - a set of values that should not be changed throughout the life of a program
 '''
 

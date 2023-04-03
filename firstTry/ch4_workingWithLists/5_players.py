@@ -1,11 +1,11 @@
 '''
 Working with Part of a List
 - how to work with all the elements in a list
-- you can also work with a specific group of items i a list 
+- you can also work with a specific group of items in a list 
 - Python calls it a slice
 
 Slicing a List
-- to make a slice, you specify the index.of the first and last elements you want to work with
+- to make a slice, you specify the index of the first and last elements you want to work with
 - as with the range() function, Python stops one item before the second index you specify.
 - EXAMPLE: to index the first three elements in a list, you would request indices 0 through 3
 		- which would return elements 0, 1, and 2.
@@ -51,10 +51,10 @@ for player in players[:3]:
 - slices are useful in a number of situations
 - EXAMPLE(s)
 
-- you could add a player's final score to a list every t ime that player findishes playing.
-- you could then get a player's top three scores by sorting the list in decreasing order and taking a slice that includes just ther first three scores
+- you could add a player's final score to a list every time that player finishes playing.
+- you could then get a player's top three scores by sorting the list in decreasing order and taking a slice that includes just thier first three scores
 
-- when your woerking with data, you can use slices to process your data in chunks of a specific size.  
+- when your working with data, you can use slices to process your data in chunks of a specific size.  
 
-- or when your building a web application, you could use slices to display information in a series of pages with an appropraite amount of information on each page.  
+- or when your building a web application, you could use slices to display information in a series of pages with an appropriate amount of information on each page.  
 '''

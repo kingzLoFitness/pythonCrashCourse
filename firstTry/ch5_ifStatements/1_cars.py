@@ -7,6 +7,7 @@ for car in cars:
 		print(car.title())
 	
 
+print()
 
 '''
 Conditional Testing
@@ -15,7 +16,6 @@ car = 'bmw'
 print(car == 'bmw')
 
 
-print()
 car = 'audi'
 print(car == 'bmw')
 

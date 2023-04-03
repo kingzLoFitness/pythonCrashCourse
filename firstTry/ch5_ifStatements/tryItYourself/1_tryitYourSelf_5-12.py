@@ -82,6 +82,7 @@ if videoGames == 'missionImpossible':
 
 
 womenIWannaLove = ['Shantel', 'Alexis', 'Suzette', 'Rosebie']
+# Cashier met up with at Local Supermarket
 womenJustMet = 'Wilney'
 
 if womenJustMet not in womenIWannaLove:

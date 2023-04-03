@@ -1,5 +1,5 @@
 '''
-Checkiung for Inequality
+Checking for Inequality
 '''
 requested_topping = "mushrooms"
 

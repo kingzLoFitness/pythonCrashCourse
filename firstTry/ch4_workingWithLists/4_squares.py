@@ -19,7 +19,7 @@ print()
 
 squares = []
 for value in range(1, 11):
-	# same as above,  htis time each value in the loop is raised ott he second power and then immediately appended to the list of squares
+	# same as above,  this time each value in the loop is raised to the second power and then immediately appended to the list of squares
 	squares.append(value**2)
 	
 print(squares)
@@ -34,7 +34,7 @@ Simple Statistics with a List of Numbers
 '''
 digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
 
-
+print(digits)
 
 print("This is the min of Digits:")
 print(min(digits))
@@ -53,9 +53,9 @@ print(sum(digits))
 print()
 '''
 List Comprehensions
-- earlier described earlier for generating the list squares consisted of using there or four lines of code.  
+- earlier described earlier for generating the list squares consisted of using three or four lines of code.  
 - A list comprehension allows you to generate this same list in just one line of code. 
-- A list comprehension combines the for loop and the craetion of new elements into one line, 
+- A list comprehension combines the for loop and the creation of new elements into one line, 
 -- and automatically appends each new elements
 = not always presented to beginners
 - but because you'll most likely see them as soon as you start looking at other people's code

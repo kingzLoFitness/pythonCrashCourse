@@ -2,14 +2,14 @@
 Copying a List
 - to start with an existing list and make an entirely new list based on the first one
 - make a slice that includes the entire original list by omitting the first index and the second index ([:])
-- starts at the first and ends with the last item, prodicuing a copy of the entire list
+- starts at the first and ends with the last item, producing a copy of the entire list
 '''
 # list of favorite foods and separate list of foods taht a friend likes (everything in list so far)
 my_foods = ['pizza', 'falafel', 'carrot cake']
 # create new list. thier list by copying ours
 friend_foods = my_foods[:]
 
-# when printed, bot contains the same foods
+# when printed, both contains the same foods
 print("- My favorite foods are:")
 print(my_foods)
 
