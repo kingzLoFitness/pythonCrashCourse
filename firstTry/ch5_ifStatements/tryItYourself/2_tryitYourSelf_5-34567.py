@@ -30,7 +30,7 @@ alien_color = 'red'
 if alien_color == 'green':
 	print("Congrate player, you earned 5 points for shooting the alien.")
 else:
-	print("You just earned 10 poaints on that red color shot of the alien.")
+	print("You just earned 10 points on that red color shot of the alien.")
 	
 
 print()
@@ -39,7 +39,7 @@ alien_color = 'green'
 if alien_color == 'green':
 	print("Congrates player, you earned 5 points for shooting the alien.")
 else:
-	print("You just earned 10 poaints on that red color shot of the alien.")
+	print("You just earned 10 points on that red color shot of the alien.")
 	
 
 	
@@ -58,7 +58,7 @@ alien_color = 'red'
 if alien_color == 'green':
 	print("Congrate player, you earned 5 points for shooting the alien.")
 elif alien_color == 'yellow':
-	print("You just earned 10 poaints on that red color shot of the alien.")
+	print("You just earned 10 points on that red color shot of the alien.")
 elif alien_color == 'red':
 	print('Hey Player, you just earned a whopping 15 pints.')
 

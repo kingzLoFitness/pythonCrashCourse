@@ -18,7 +18,7 @@ print("Finished making your pizza!")
 
 
 
-print()
+print("\n\n")
 '''
 Check That a List Is Not Empty
 '''

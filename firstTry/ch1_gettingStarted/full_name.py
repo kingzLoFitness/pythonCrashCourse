@@ -7,7 +7,7 @@ print(f"Hello, {full_name.title()}!")
 
 
 
-# to insert a variable's value into a string, place the letter f immediately before the opening quotatoin mark.  
+# to insert a variable's value into a string, place the letter f immediately before the opening quotation mark.  
 # put braces around the name or names of any variable you want to tuse inside the string
 # python will replace each variable with its value when the string is displayed
 
