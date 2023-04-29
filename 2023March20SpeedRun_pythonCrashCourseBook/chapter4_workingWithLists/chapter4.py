@@ -253,3 +253,27 @@ dimensions = (400, 100)
 print("\nModified dimensions:")
 for dimension in dimensions:
     print(dimension)
+
+
+
+"""
+Try it  page 68
+4-13. Buffet:
+
+"""
+
+# Styling Your Code
+
+
+"""
+Try it Yourself page 70
+4-14. PEP 8:
+
+4-15 Code Review:
+
+
+"""
+
+
+
+
